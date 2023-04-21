@@ -4,9 +4,21 @@
 
 # Arrays are lists of things
 
+favorite_foods = ["tacos", "burritos", "nachos"]
+puts favorite_foods.inspect
+
+numbers = [4, 8, 15, 16, 23, 42]
+puts numbers.inspect
 # Accessing the array
 
+mixed_arry = ["tacos", 12, true]
+puts mixed_arry.inspect
+
+shopping_lists = [["milk", "eggs", "toilet paper"], ["soap", "shampoo"]]
+puts shopping_lists.inspect
+
 # Add to the array
+
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html

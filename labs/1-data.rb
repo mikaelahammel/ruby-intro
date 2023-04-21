@@ -16,8 +16,17 @@
 # Log output to the screen with puts:
 # puts "Hello, world"
 
-roll_one = rand(1..6)
-roll_two = rand(1..6)
-puts "Roll 1: #{roll_one}"
-puts "Roll 2: #{roll_two}"
-puts "Total: #{roll_one + roll_two}"
+# my initial code
+# roll_one = rand(1..6)
+# roll_two = rand(1..6)
+# puts "Roll 1: #{roll_one}"
+# puts "Roll 2: #{roll_two}"
+# puts "Total: #{roll_one + roll_two}"
+
+#code from professer
+die1 = rand(1..6)
+die2 = rand(1..6)
+total = die1 + die2
+puts "The first die is #{die1}"
+puts "The second die is #{die2}"
+puts "The total is #{total}"
